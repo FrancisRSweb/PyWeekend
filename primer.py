@@ -22,8 +22,10 @@
 
 # Diccionarios    ((  Introducir los nombres en español y obtener por pantalla ingles ))
 
-mesestraducidos = {"Enero" : "January", "Febrero" : "February", "Marzo" : "March", "Abril" : "April"}
+# mesestraducidos = {"Enero" : "January", "Febrero" : "February", "Marzo" : "March", "Abril" : "April"}
+# 
+# 
+# print(mesestraducidos["Enero"])
+# print(mesestraducidos["Marzo"])
 
-
-print(mesestraducidos["Enero"])
-print(mesestraducidos["Marzo"])
+# End pashe 3
