@@ -63,9 +63,9 @@ def MostrarMenu():
 def AñadirLibroABiblioteca(biblioteca):
         titulo = input("Intruduzca titulo del libro: ")
         isbn = input("Introduzca el ISBN del libro: ")
-        autonombre = input("Introduzca el nombre del autor: ")
+        autornombre = input("Introduzca el nombre del autor: ")
         autorapellidos = input("Introduzca los apellidos del Autor: ")
-        autor = Autor(autonombre.autorapellidos)
+        autor = Autor(autornombre.autorapellidos)
         libro = Libro(titulo, isbn)
         libro.AñadirAutor(autor)
         biblioteca.AñadirLibro(libro)
