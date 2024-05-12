@@ -38,7 +38,7 @@ class Biblioteca:
             item.MostrarLibro()
         print("##################################################")
 
-def BorrarLibro(self, titulo):
+    def BorrarLibro(self, titulo):
         encontrado = False
         posicionaborrar = -1
         for item in self.ListaLibros:
@@ -65,7 +65,7 @@ def AñadirLibroABiblioteca(biblioteca):
         isbn = input("Introduzca el ISBN del libro: ")
         autornombre = input("Introduzca el nombre del autor: ")
         autorapellidos = input("Introduzca los apellidos del Autor: ")
-        autor = Autor(autornombre.autorapellidos)
+        autor = Autor(autornombre, autorapellidos)
         libro = Libro(titulo, isbn)
         libro.AñadirAutor(autor)
         biblioteca.AñadirLibro(libro)
@@ -78,7 +78,7 @@ def BorrarLibro(biblioteca):
         titulo = input("Introducir el titulo del libro a borrar: ")
         biblioteca.BorrarLibro(titulo)
     
-def NumeroLibro(biblioteca):
+def NumeroLibros(biblioteca):
         print("El numero de libros en la biblioteca es: ", biblioteca.NumeroLibros())
 
 fin = False
